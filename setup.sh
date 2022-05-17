@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -exec sed -i 's/jamesowersroo/'$1'/g' {} +
+find . -type f -exec gsed -i 's/jamesowersroo/'$1'/g' {} +
